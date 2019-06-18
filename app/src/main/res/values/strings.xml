@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">UsagiNo4G</string>
+<string name="html_begin">http://www.</string>
+<string name="header">Navigateur magique UsagiNo4G</string>
+<string name="simplify_box">Simplifier le code HTML</string>
+<string name="zero_box">Garder uniquement le texte lisible</string>
+<string name="browse_button">Naviguer</string>
+<string name="password">Mot de passe</string>
+<string name="parametres">Paramètres</string>
+    <string name="phonenum">Numéro du serveur</string>
+</resources>

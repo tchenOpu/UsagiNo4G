@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBoxPreference
+        android:key="CodeSimplify"
+        android:title="Simplifier le code"
+        android:summaryOn="Le serveur reduira la taille des codes HTML"
+        android:summaryOff="Le serveur ne reduira pas la taille des codes HTML"
+        android:defaultValue="true"/>
+
+    <EditTextPreference
+        android:key="TelNumber"
+        android:dialogTitle="Numero de téléphone"
+        android:positiveButtonText="Confirmer"
+        android:negativeButtonText="Annuler"
+        android:inputType="phone"
+        android:title="Numero de téléphone"
+        android:summary="Entrez le numero du serveur" />
+
+    <EditTextPreference
+        android:key="Password"
+        android:inputType="textPassword"
+        android:dialogTitle="Mot de passe"
+        android:positiveButtonText="Confirmer"
+        android:negativeButtonText="Annuler"
+        android:title="Mot de passe"
+        android:summary="Entrez le mot de passe" />
+
+    <ListPreference
+        android:key="modePref"
+        android:dialogTitle="Choisissez le mode"
+        android:entries="@array/liste_modes"
+        android:entryValues="@array/liste_modes"
+        android:title="Choisir mode" />
+    //
+    <ListPreference
+        android:key="modeTheme"
+        android:dialogTitle="Choisissez le theme"
+        android:entries="@array/liste_theme"
+        android:entryValues="@array/liste_theme"
+        android:title="Choisir theme" />
+    //
+</PreferenceScreen>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    //
+    <color name="colorWithe">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGrey">#808080</color>
+    <color name="colorDark">#404040</color>
+
+    //
+    <array name="liste_modes">
+        <item>Off</item>
+        <item>Client</item>
+        <item>Serveur</item>
+    </array>
+//
+    <array name="liste_theme">
+        <item>Blanc</item>
+        <item>Noir</item>
+
+    </array>
+//
+</resources>
